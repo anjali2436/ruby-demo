@@ -19,6 +19,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_06_09_123223) do
     t.datetime "created_at", precision: nil
     t.datetime "updated_at", precision: nil
     t.integer "user_id"
+
     t.index ["user_id"], name: "index_blogs_on_user_id"
   end
 
